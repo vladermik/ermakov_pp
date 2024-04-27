@@ -1,0 +1,18 @@
+2024/04/27 22:37:24:('127.0.0.1', 54987):filename = files\1.htm errors=[Errno 2] No such file or directory: 'files\\1.htm'
+2024/04/27 22:42:39:('127.0.0.1', 55209):filename = files\1.htm errors=Denied file type
+2024/04/27 22:51:41:('127.0.0.1', 55417):filename='files\japanese_kitten.png' errors=Denied file type
+2024/04/27 22:52:06:('127.0.0.1', 55428):filename='files\japanese_kitten.png' errors=[Errno 2] No such file or directory: 'files\\japanese_kitten.png'
+2024/04/27 22:52:26:('127.0.0.1', 55429):filename='files\japanese_kitten.jpg' errors='charmap' codec can't decode byte 0x98 in position 426: character maps to <undefined>
+2024/04/27 22:52:29:('127.0.0.1', 55442):filename='files\japanese_kitten.jpg' errors='charmap' codec can't decode byte 0x98 in position 426: character maps to <undefined>
+2024/04/27 22:54:17:('127.0.0.1', 55478):filename='files\japanese_kitten.jpg' errors=
+2024/04/27 22:54:24:('127.0.0.1', 55480):filename='files\japanese_kitten.jpg' errors=
+2024/04/27 22:57:56:('127.0.0.1', 55642):filename='files\japanese_kitten.jpg' errors=
+2024/04/27 22:58:41:('127.0.0.1', 55643):filename='files\japanese_kitten.jpg' errors=
+2024/04/27 22:59:54:('127.0.0.1', 55726):filename='files\1.html' errors=
+2024/04/27 23:00:00:('127.0.0.1', 55728):filename='files\2.html' errors=
+2024/04/27 23:00:15:('127.0.0.1', 55742):filename='files\japanese_kitten.jpg' errors=
+2024/04/27 23:01:22:('127.0.0.1', 55783):filename='files\japanese_kitten.jpg' errors=
+2024/04/27 23:01:38:('127.0.0.1', 55784):filename='files\1.thml' errors=Restricted file type
+2024/04/27 23:01:51:('127.0.0.1', 55815):filename='files\1.html' errors=
+2024/04/27 23:02:17:('127.0.0.1', 55816):filename='files\japanese_kitten.jpg' errors=
+2024/04/27 23:08:40:('127.0.0.1', 56060):filename='files\japanese_kitten.jpg' errors=
