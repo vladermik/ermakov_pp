@@ -11,16 +11,16 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((host, port))
 server_socket.listen(5)
 
-print("Ожидание подключения клиента...")
+print("waiting for connections ...")
 
 client_socket, address = server_socket.accept()
-print("Подключен клиент", address)
+print(f"got connection from {address}")
 
 while True:
     data = client_socket.recv(1024)
     if not data:
         break
-    print("Получено от клиента:", data.decode())
+    print(f"message from {address}: {data.decode()}")
     client_socket.send(data.decode().upper().encode())
 
 client_socket.close()

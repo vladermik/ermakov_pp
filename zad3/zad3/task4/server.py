@@ -30,3 +30,4 @@ while True:
     logging.info(f"Received message: {msg}")
 
     client_socket.close()
+#C:/Users/PC/AppData/Local/Microsoft/WindowsApps/python3.11.exe d:/programming/pp/zad3/zad3/task4/server.py
